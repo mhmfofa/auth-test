@@ -1,12 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
   template: `
     <div class="d-flex mt-5 align-items-center justify-content-center">
-      <p>
-        This is the homepage.
-      </p>
+      <h5>This is the homepage.</h5>
       <br>
       <div class="flex justify-content-center ">
       </div>
@@ -14,11 +12,4 @@ import { Component, OnInit } from '@angular/core';
   `,
   styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
-
-  constructor() {}
-
-  ngOnInit(): void {
-  }
-
-}
+export class HomeComponent { }

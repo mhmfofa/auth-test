@@ -24,7 +24,6 @@ export class AuthGuardService implements CanActivate {
         }),
         takeUntil(this.ngDestroyed$)
       )
-
   }
 
   public ngDestroyed$ = new Subject();

@@ -24,7 +24,7 @@ export class SessionService {
       this.timeoutId = setTimeout(() => {
         this.store.dispatch(logOut());
         this.router.navigate(["/login"]);
-      }, duration - 1000);
+      }, duration);
     }
   }
 
