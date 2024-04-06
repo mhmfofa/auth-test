@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: `
     <div class="d-flex mt-5 align-items-center justify-content-center">
       <p>
-        This project is my homepage.
+        This is the homepage.
       </p>
       <br>
       <div class="flex justify-content-center ">

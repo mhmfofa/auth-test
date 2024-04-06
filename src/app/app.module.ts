@@ -7,7 +7,7 @@ import { AppAuthModule } from './auth/app-auth.module';
 import { RouterModule } from '@angular/router';
 import { StoreModule } from '@ngrx/store';
 import { EffectsModule } from '@ngrx/effects';
-import { MenuComponent } from './shared/menu/menu.component';
+import { MenuComponent } from './shared/components/menu/menu.component';
 import { HomeComponent } from './views/home/home.component';
 import { ProfileComponent } from './views/profile/profile.component';
 import { authReducer } from './auth/authStore/reducers/auth.reducers';
